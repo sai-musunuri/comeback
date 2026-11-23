@@ -24,14 +24,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: Test
         run: python3 -m unittest
+      - name: Pick date
+        run: |
+          D="${{ inputs.date }}"
+          [ -z "$D" ] && D=$(TZ=America/New_York date -d yesterday +%F)
+          echo "RECAP_DATE=$D" >> "$GITHUB_ENV"
       - name: Recap
-        run: python3 -m comeback.recap ${{ inputs.date }}
+        run: python3 -m comeback.recap "$RECAP_DATE"
       - name: Commit
         run: |
           git config user.name "Sai Musunuri"
           git config user.email "sm4727@drexel.edu"
           git add -A
           git diff --cached --quiet && exit 0
-          git commit -m "Recap comebacks for $(ls recaps | sort | tail -1 | sed 's/\.md$//')"
+          git commit -m "Recap comebacks for $RECAP_DATE"
           git pull --rebase
           git push
