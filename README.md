@@ -21,7 +21,7 @@ Comeback finds the games worth watching: the ones where a team climbs out of a b
 ## Recent comebacks
 
 <!-- recent:start -->
-Latest recap: [2026-11-20](recaps/2026-11-20.md)
+Latest recap: [2026-11-19](recaps/2026-11-19.md)
 
 | Date | League | Winner | Deficit erased | Final |
 |---|---|---|---|---|
@@ -31,6 +31,10 @@ Latest recap: [2026-11-20](recaps/2026-11-20.md)
 | 2026-11-21 | Men's College Basketball | Oral Roberts Golden Eagles | 17 points | ORU 78, AMCC 74 |
 | 2026-11-21 | Men's College Basketball | Valparaiso Beacons | 19 points | VAL 77, TROY 72 |
 | 2026-11-20 | NBA | Oklahoma City Thunder | 18 points | OKC 126, NO 120 |
+| 2026-11-19 | Men's College Basketball | VCU Rams | 18 points | VCU 83, SCU 77 |
+| 2026-11-19 | Men's College Basketball | Southern Miss Golden Eagles | 15 points | USM 103, GRAM 100 |
+| 2026-11-19 | NHL | Los Angeles Kings | 3 goals | LA 4, TOR 3 |
+| 2026-11-19 | NHL | Philadelphia Flyers | 3 goals | PHI 6, OTT 5 |
 <!-- recent:end -->
 
 ## Run locally

@@ -1,4 +1,8 @@
 date,league,event_id,winner,loser,deficit,unit,final
+2026-11-19,ncaam,401917536,VCU Rams,Santa Clara Broncos,18,points,"VCU 83, SCU 77"
+2026-11-19,ncaam,401928388,Southern Miss Golden Eagles,Grambling Tigers,15,points,"USM 103, GRAM 100"
+2026-11-19,nhl,401892742,Los Angeles Kings,Toronto Maple Leafs,3,goals,"LA 4, TOR 3"
+2026-11-19,nhl,401892743,Philadelphia Flyers,Ottawa Senators,3,goals,"PHI 6, OTT 5"
 2026-11-20,nba,401909310,Oklahoma City Thunder,New Orleans Pelicans,18,points,"OKC 126, NO 120"
 2026-11-21,ncaaf,401856870,Oklahoma State Cowboys,Arizona State Sun Devils,17,points,"OKST 30, ASU 27"
 2026-11-21,ncaaf,401871079,Jacksonville State Gamecocks,Missouri State Bears,17,points,"JXST 25, MOST 20"
