@@ -1,0 +1,37 @@
+name: Daily recap
+
+on:
+  schedule:
+    - cron: "17 12 * * *"  # 7:17 AM Eastern (standard time)
+    - cron: "47 17 * * *"  # backup run; no-op if the morning run already recorded the day
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date to recap (YYYY-MM-DD). Defaults to yesterday, Eastern time."
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-writes
+  cancel-in-progress: false
+
+jobs:
+  recap:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test
+        run: python3 -m unittest
+      - name: Recap
+        run: python3 -m comeback.recap ${{ inputs.date }}
+      - name: Commit
+        run: |
+          git config user.name "Sai Musunuri"
+          git config user.email "sm4727@drexel.edu"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "Recap comebacks for $(ls recaps | sort | tail -1 | sed 's/\.md$//')"
+          git pull --rebase
+          git push

@@ -1,0 +1,32 @@
+name: Live alerts
+
+on:
+  schedule:
+    - cron: "*/15 0-6,16-23 * * *"  # noon to 3 AM Eastern, when games are on
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-writes
+  cancel-in-progress: false
+
+jobs:
+  live:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check live games
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python3 -m comeback.live
+      - name: Commit new alerts
+        run: |
+          git config user.name "Sai Musunuri"
+          git config user.email "sm4727@drexel.edu"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "Log comeback alerts"
+          git pull --rebase
+          git push

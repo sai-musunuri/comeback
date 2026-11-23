@@ -1,0 +1,13 @@
+name: Tests
+
+on:
+  push:
+    paths: ["comeback/**", "tests/**"]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m unittest -v
