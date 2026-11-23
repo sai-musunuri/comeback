@@ -21,7 +21,7 @@ Comeback finds the games worth watching: the ones where a team climbs out of a b
 ## Recent comebacks
 
 <!-- recent:start -->
-Latest recap: [2026-11-21](recaps/2026-11-21.md)
+Latest recap: [2026-11-20](recaps/2026-11-20.md)
 
 | Date | League | Winner | Deficit erased | Final |
 |---|---|---|---|---|
@@ -30,6 +30,7 @@ Latest recap: [2026-11-21](recaps/2026-11-21.md)
 | 2026-11-21 | Men's College Basketball | Eastern Michigan Eagles | 17 points | EMU 70, DEN 68 |
 | 2026-11-21 | Men's College Basketball | Oral Roberts Golden Eagles | 17 points | ORU 78, AMCC 74 |
 | 2026-11-21 | Men's College Basketball | Valparaiso Beacons | 19 points | VAL 77, TROY 72 |
+| 2026-11-20 | NBA | Oklahoma City Thunder | 18 points | OKC 126, NO 120 |
 <!-- recent:end -->
 
 ## Run locally
