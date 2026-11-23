@@ -21,10 +21,13 @@ Comeback finds the games worth watching: the ones where a team climbs out of a b
 ## Recent comebacks
 
 <!-- recent:start -->
-Latest recap: [2026-11-19](recaps/2026-11-19.md)
+Latest recap: [2026-11-22](recaps/2026-11-22.md)
 
 | Date | League | Winner | Deficit erased | Final |
 |---|---|---|---|---|
+| 2026-11-22 | Men's College Basketball | Troy Trojans | 18 points | TROY 78, NICH 77 |
+| 2026-11-22 | Men's College Basketball | Southern Miss Golden Eagles | 22 points | USM 99, VAL 89 |
+| 2026-11-22 | NHL | St. Louis Blues | 3 goals | STL 5, EDM 4 |
 | 2026-11-21 | College Football | Oklahoma State Cowboys | 17 points | OKST 30, ASU 27 |
 | 2026-11-21 | College Football | Jacksonville State Gamecocks | 17 points | JXST 25, MOST 20 |
 | 2026-11-21 | Men's College Basketball | Eastern Michigan Eagles | 17 points | EMU 70, DEN 68 |
