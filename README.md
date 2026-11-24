@@ -21,10 +21,11 @@ Comeback finds the games worth watching: the ones where a team climbs out of a b
 ## Recent comebacks
 
 <!-- recent:start -->
-Latest recap: [2026-11-22](recaps/2026-11-22.md)
+Latest recap: [2026-11-23](recaps/2026-11-23.md)
 
 | Date | League | Winner | Deficit erased | Final |
 |---|---|---|---|---|
+| 2026-11-23 | Men's College Basketball | BYU Cougars | 15 points | BYU 83, WASH 77 |
 | 2026-11-22 | Men's College Basketball | Troy Trojans | 18 points | TROY 78, NICH 77 |
 | 2026-11-22 | Men's College Basketball | Southern Miss Golden Eagles | 22 points | USM 99, VAL 89 |
 | 2026-11-22 | NHL | St. Louis Blues | 3 goals | STL 5, EDM 4 |
