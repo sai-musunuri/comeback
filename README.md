@@ -21,10 +21,11 @@ Comeback finds the games worth watching: the ones where a team climbs out of a b
 ## Recent comebacks
 
 <!-- recent:start -->
-Latest recap: [2026-11-25](recaps/2026-11-25.md)
+Latest recap: [2026-11-26](recaps/2026-11-26.md)
 
 | Date | League | Winner | Deficit erased | Final |
 |---|---|---|---|---|
+| 2026-11-26 | NFL | Philadelphia Eagles | 21 points | PHI 39, DAL 38 |
 | 2026-11-25 | Men's College Basketball | St. Bonaventure Bonnies | 16 points | SBU 71, BEL 68 |
 | 2026-11-24 | Men's College Basketball | Colorado Buffaloes | 20 points | COLO 70, STAN 65 |
 | 2026-11-24 | Men's College Basketball | Ole Miss Rebels | 18 points | MISS 73, BYU 63 |
@@ -39,7 +40,6 @@ Latest recap: [2026-11-25](recaps/2026-11-25.md)
 | 2026-11-21 | Men's College Basketball | Valparaiso Beacons | 19 points | VAL 77, TROY 72 |
 | 2026-11-20 | NBA | Oklahoma City Thunder | 18 points | OKC 126, NO 120 |
 | 2026-11-19 | Men's College Basketball | VCU Rams | 18 points | VCU 83, SCU 77 |
-| 2026-11-19 | Men's College Basketball | Southern Miss Golden Eagles | 15 points | USM 103, GRAM 100 |
 <!-- recent:end -->
 
 ## Run locally
